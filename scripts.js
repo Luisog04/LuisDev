@@ -1,6 +1,12 @@
 eventlisteners();
 function eventlisteners() {
     const formulario = document.querySelector('#formulario');
+    const btnContacto = document.querySelector('.boton_header')
+    const seccionContacto = document.querySelector('#contacto')
+
+    btnContacto.addEventListener('click', () => {
+        seccionContacto.scrollIntoView({behavior : "smooth"});
+    })
 
     formulario.addEventListener('submit', validarFormulario)
 
@@ -23,6 +29,7 @@ function eventlisteners() {
             }, 5000);
             
         }
+        
 
     }
 

@@ -391,13 +391,14 @@ h4 {
 }
 .header .boton_header {
   background-color: #6896e5;
-  width: 10rem;
-  height: 3rem;
+  color: white;
+  width: 12rem;
+  height: 4rem;
   border-radius: 4rem;
   border: none;
   cursor: pointer;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-right: 3rem;
 }
 .header .boton_header:hover {
@@ -460,7 +461,7 @@ h4 {
 }
 .contenedor-principal .informacion {
   display: inline-block;
-  width: 25rem;
+  width: 90%;
   border-radius: 2rem;
   background-color: white;
   -webkit-box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.44);
@@ -469,8 +470,10 @@ h4 {
   margin: 2rem 0;
 }
 .contenedor-principal .informacion .informacion_parrafo {
+  height: auto;
   font-size: 1.8rem;
   font-weight: 400;
+  margin-bottom: 1rem;
 }
 
 .caja {
@@ -513,7 +516,7 @@ h4 {
 }
 
 .tecnologias_texto {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 3rem;
   text-align: center;
 }
@@ -526,6 +529,7 @@ h4 {
 }
 .seccion-responsive .texto-responsive {
   font-weight: bold;
+  font-size: 1.8rem;
 }
 .seccion-responsive .texto-responsive span {
   color: #246067;
@@ -558,11 +562,16 @@ h4 {
   background-color: #6896e5;
   display: block;
   margin: 0 auto;
+  padding: 1rem;
   width: 70%;
-  height: 3rem;
-  border-radius: 1rem;
+  height: 5rem;
+  border-radius: 3rem;
   border: none;
   font-weight: bold;
+}
+.seccion-proyectos .seccion-proyectos_boton a {
+  color: white;
+  font-size: 2.2rem;
 }
 .seccion-proyectos .seccion-proyectos_boton:hover {
   cursor: pointer;
@@ -624,14 +633,15 @@ h4 {
 }
 .formulario .formulario__boton {
   background-color: #6896e5;
-  width: 10rem;
+  color: white;
+  width: 13rem;
   height: 3rem;
   border-radius: 4rem;
   border: none;
   cursor: pointer;
   font-weight: 700;
-  font-size: 1.4rem;
-  margin: 2rem 3rem 0 0;
+  font-size: 1.8rem;
+  margin: 1rem 3rem 0 0;
 }
 .formulario .formulario__boton:hover {
   background-color: #81766d;
@@ -774,7 +784,13 @@ h4 {
   }
   .informacion--personal .contenedor-principal .informacion {
     margin-left: 1rem;
-    width: 30%;
+    width: 33%;
+  }
+  .informacion--personal .contenedor-principal .informacion_parrafo {
+    height: auto;
+    padding: 1rem;
+    font-size: 2rem;
+    align-items: center;
   }
   .tecnologias h3 {
     font-size: 3rem;
@@ -783,6 +799,7 @@ h4 {
   .tecnologias_texto {
     padding-left: 10rem;
     padding-right: 10rem;
+    font-size: 2.2rem;
   }
   .contenedor-tecnologias {
     width: 100vw;
@@ -849,7 +866,7 @@ h4 {
     object-fit: cover;
   }
   .seccion-responsive .texto-responsive {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     padding: 6rem;
   }
@@ -950,5 +967,11 @@ h4 {
   }
   .informacion--personal .contenedor-principal .informacion {
     margin-left: 3rem;
+  }
+  .informacion--personal .contenedor-principal .informacion_parrafo {
+    height: 25rem;
+    padding: 1rem;
+    font-size: 2rem;
+    align-items: center;
   }
 }
